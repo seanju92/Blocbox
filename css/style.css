@@ -135,26 +135,26 @@ header nav ul > li.btn-outline:hover > a {
   color: #34495E;
 }
 
-header .hero {
+.hero {
   text-align: right;
   display: inline;
   position: relative;
 }
 
-header .hero h1 {
+.hero h1 {
   font-size: 48px;
   font-weight: normal;
   margin: 95px 175 0 0;
 }
 
-header .hero p {
+.hero p {
   font-size: 22px;
   line-height: 26px;
   font-weight: 100;
   margin: 10px 175 0 40px;
 }
 
-header .hero img {
+.hero img {
   display: block;
   position: relative;
   top: -320px;
