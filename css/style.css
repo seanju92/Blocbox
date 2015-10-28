@@ -208,19 +208,24 @@ p {
   padding: 0;
 }
 
-.section-header > p {
-  font-size: 1.2em;
-  line-height: 1.2em;
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
+.section-header {
+  margin-bottom: 2rem;
 }
 
 .section-title {
   text-align: center;
   font-weight: bold;
+  font-size: 2rem;
   color: rgb(77,97,128);
   margin: 1.5em 0 0.25em 0;
+}
+
+.section-hint {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .section.pricing {
