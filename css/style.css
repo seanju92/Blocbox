@@ -97,9 +97,9 @@ p {
   }
 }
 
-/* HEADER */
+/* MAIN HEADER */
 
-header {
+.main-header {
   color:#f9fbff;
   background: #4d6180;
   background-image: -moz-linear-gradient( 75deg, rgb(77,97,128) 0%, rgb(31,49,77) 100%);
@@ -113,51 +113,51 @@ header {
   /*z-index: 27;*/
 }
 
-header nav {
+.main-header nav {
   padding: 1em 0;
 }
 
-header nav ul {
+.main-header nav ul {
   display: inline;
   text-align: right;
   float: right;
   margin: 0;
 }
 
-header nav ul > li {
+.main-header nav ul > li {
   list-style-type: none;
   display: inline-block;
   margin: 0 15px;
 }
 
-header nav ul > li.btn-outline {
+.main-header nav ul > li.btn-outline {
   border: 2px solid #f9fbff;
   border-radius: 4px;
 }
 
-header nav ul > li.btn-outline:hover {
+.main-header nav ul > li.btn-outline:hover {
   background: #f9fbff;
 }
 
-header nav ul > li > a {
+.main-header nav ul > li > a {
   color: #f9fbff;
   text-decoration: none;
 }
 
-header nav ul > li > a:hover {
+.main-header nav ul > li > a:hover {
   text-decoration: underline;
 }
 
-header nav ul > li.btn-outline > a {
+.main-header nav ul > li.btn-outline > a {
   display: inline-block;
   padding: 10px 15px;
 }
 
-header nav ul > li.btn-outline:hover > a {
+.main-header nav ul > li.btn-outline:hover > a {
   color: #34495E;
 }
 
-header nav ul > li.btn-outline:hover > a:hover {
+.main-header nav ul > li.btn-outline:hover > a:hover {
   text-decoration: none;
 }
 
