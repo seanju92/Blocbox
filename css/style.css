@@ -308,3 +308,16 @@ p {
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
+
+/* TESTIMONIALS */
+
+.testimonial blockquote {
+  margin: 0;
+  padding: 1rem;
+  color: #FFFFFF;
+  background: #4d6180;
+}
+
+.testimonial:nth-child(even) blockquote {
+  margin-top: 2rem;
+}
