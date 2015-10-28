@@ -223,6 +223,10 @@ p {
   margin: 1.5em 0 0.25em 0;
 }
 
+.section.pricing {
+  padding-bottom: 50px;
+}
+
 /* PRICING BOX */
 
 .box {
@@ -258,4 +262,44 @@ p {
 
 .box .btn {
   margin: 2rem;
+}
+
+/* BENEFITS */
+
+.benefit {
+  background-size: cover;
+}
+
+.benefit-notes {
+  background-image: url("../images/notes.png");
+}
+
+.benefit-saveimages {
+  background-image: url("../images/saveimages.png");
+}
+
+.benefit-addlinks {
+  background-image: url("../images/addlinks.png");
+}
+
+.benefit-notes .one-third, .benefit-addlinks .one-third {
+  float: right;
+}
+
+.benefit-hint {
+  margin: 200px 0 50px 0;
+  text-align: center;
+}
+
+.benefit-title {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #444444;
+}
+
+.benefit-content {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
