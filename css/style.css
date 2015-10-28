@@ -168,12 +168,9 @@ header nav ul > li.btn-outline:hover > a {
   margin: 10px 175 0 40px;
 }
 
-/*.hero img {
-  display: block;
-  position: relative;
-  top: -320px;
-  left: 160px;
-}*/
+.hero img {
+  width: 100%;
+}
 
 /* BUTTONS */
 
