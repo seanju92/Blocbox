@@ -202,6 +202,12 @@ p {
 
 /* SECTIONS */
 
+.section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .section-header > p {
   font-size: 1.2em;
   line-height: 1.2em;
@@ -215,4 +221,41 @@ p {
   font-weight: bold;
   color: rgb(77,97,128);
   margin: 1.5em 0 0.25em 0;
+}
+
+/* PRICING BOX */
+
+.box {
+  text-align: center;
+  background: hsla(36, 44%, 64%, 1);
+  box-shadow: 0 2px 0 0 hsla(36, 34%, 44%, 1)
+}
+
+.box-title {
+  padding: 0.5rem;
+  background: #4d6180;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.box-price {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.price-fee {
+  font-size: 2rem;
+  vertical-align: middle;
+  color: #333333;
+}
+
+.box-perks > li {
+  margin: 0.5rem 0;
+}
+
+.box .btn {
+  margin: 2rem;
 }
