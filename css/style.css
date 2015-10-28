@@ -91,12 +91,12 @@ header {
   background-image: -moz-linear-gradient( 75deg, rgb(77,97,128) 0%, rgb(31,49,77) 100%);
   background-image: -webkit-linear-gradient( 75deg, rgb(77,97,128) 0%, rgb(31,49,77) 100%);
   background-image: -ms-linear-gradient( 75deg, rgb(77,97,128) 0%, rgb(31,49,77) 100%);
-  position: absolute;
+  /*position: absolute;
   left: 0px;
-  top: 0px;
-  width: 1440px;
-  height: 800px;
-  z-index: 27;
+  top: 0px;*/
+  /*width: 1440px;*/
+  /*height: 800px;*/
+  /*z-index: 27;*/
 }
 
 header nav {
