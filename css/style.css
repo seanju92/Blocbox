@@ -149,32 +149,35 @@ header nav ul > li.btn-outline:hover > a {
   color: #34495E;
 }
 
-/*.hero {
-  text-align: right;
-  display: inline;
-  position: relative;
-}*/
+.hero {
+  text-align: center;
+}
 
 .hero h1 {
   font-size: 48px;
   font-weight: normal;
-  /*margin: 95px 175 0 0;*/
 }
 
 .hero p {
   font-size: 22px;
   line-height: 26px;
-  font-weight: 100;
-  margin: 10px 175 0 40px;
+  /*font-weight: 100;*/
+  /*margin: 10px 175 0 40px;*/
 }
 
 .hero img {
   width: 100%;
 }
 
+.hero .btn {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
 /* BUTTONS */
 
 .btn {
+  display: inline-block;
   border-radius: 4px;
   color: #f9fbff;
   font-weight: 700;
