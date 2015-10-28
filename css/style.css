@@ -131,7 +131,6 @@ header nav ul > li {
 }
 
 header nav ul > li.btn-outline {
-  padding: 10px 15px;
   border: 2px solid #f9fbff;
   border-radius: 4px;
 }
@@ -147,6 +146,11 @@ header nav ul > li > a {
 
 header nav ul > li > a:hover {
   text-decoration: underline;
+}
+
+header nav ul > li.btn-outline > a {
+  display: inline-block;
+  padding: 10px 15px;
 }
 
 header nav ul > li.btn-outline:hover > a {
