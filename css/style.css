@@ -311,13 +311,13 @@ p {
 
 /* TESTIMONIALS */
 
-.testimonial blockquote {
+.testimonial-quote {
   margin: 0;
   padding: 1rem;
   color: #FFFFFF;
   background: #4d6180;
 }
 
-.testimonial:nth-child(even) blockquote {
+.testimonial:nth-child(even) .testimonial-quote {
   margin-top: 2rem;
 }
