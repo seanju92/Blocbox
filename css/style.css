@@ -62,6 +62,20 @@ p {
   margin-bottom: 20px;
 }
 
+.container.raw {
+  width: auto !important;
+  padding: 0;
+}
+
+.container.raw .one-half,
+.container.raw .one-third,
+.container.raw .two-third,
+.container.raw .one-fourth {
+  margin: 0;
+  padding: 0;
+}
+
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -323,6 +337,10 @@ p {
 }
 
 .testimonial-avatar {
-  width: 75px;
-  border-radius: 75px;
+  width: 100%;
+  border-radius: 200px;
+}
+
+.testimonial-name {
+  padding-left: 1rem !important;
 }
