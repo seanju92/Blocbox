@@ -194,7 +194,8 @@ p {
   width: 100%;
 }
 
-.hero .btn {
+.hero .btn,
+.section.calltoaction .btn {
   margin: 1rem 0;
   font-size: 1.5rem;
 }
@@ -244,6 +245,12 @@ p {
 
 .section.pricing {
   padding-bottom: 50px;
+}
+
+.section.calltoaction {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 /* PRICING BOX */
