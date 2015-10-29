@@ -321,3 +321,8 @@ p {
 .testimonial:nth-child(even) .testimonial-quote {
   margin-top: 2rem;
 }
+
+.testimonial-avatar {
+  width: 75px;
+  border-radius: 75px;
+}
