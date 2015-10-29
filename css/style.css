@@ -217,8 +217,12 @@ p {
 
 /* SECTIONS */
 
-.section ul {
+.section ul,
+.main-footer ul {
   list-style: none;
+}
+
+.section ul {
   margin: 0;
   padding: 0;
 }
@@ -369,4 +373,70 @@ p {
 
 .testimonial-name {
   padding-left: 1rem !important;
+}
+
+/* MAIN FOOTER */
+
+.main-footer {
+  background: #4D6180;
+  padding: 1rem;
+  color: #FFFFFF;
+}
+
+.main-footer-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.copyright-block,
+.blockbox-links-list,
+.main-footer .logo {
+  flex: 0 1 auto;
+  order: 0;
+  align-self: auto;
+}
+
+.copyright-block {
+  font-size: 1rem;
+}
+
+.main-footer a,
+.main-footer a:hover,
+.main-footer a:visited,
+.main-footer a:active {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+.blockbox-links-list {
+  flex: 1 1 auto;
+  order: 0;
+  align-self: auto;
+  padding-left: 30px;
+}
+
+.blockbox-link {
+  display: inline;
+}
+
+.blockbox-link:before {
+  content: "/";
+  margin: 0 0.5rem;
+}
+
+.blockbox-link:first-child:before {
+  content: "";
+  margin: 0;
+}
+
+.main-footer .logo {
+  opacity: 0.1;
 }
