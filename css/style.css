@@ -332,6 +332,8 @@ p {
   color: #FFFFFF;
   background: #4d6180;
   margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-style: oblique;
 }
 
 .testimonial-quote:after {
