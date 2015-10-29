@@ -326,10 +326,27 @@ p {
 /* TESTIMONIALS */
 
 .testimonial-quote {
+	position: relative;
   margin: 0;
   padding: 1rem;
   color: #FFFFFF;
   background: #4d6180;
+  margin-bottom: 20px;
+}
+
+.testimonial-quote:after {
+	top: 100%;
+	left: 40px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(77, 97, 128, 0);
+	border-top-color: #4D6180;
+	border-width: 10px;
+	margin-left: -10px;
 }
 
 .testimonial:nth-child(even) .testimonial-quote {
